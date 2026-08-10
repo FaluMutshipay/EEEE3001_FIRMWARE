@@ -15,7 +15,7 @@
 
 // Struct layout matches the transmitter's memory structure perfectly
 typedef struct {
-  float bend[3];     // Index 0=Thumb/Index, 1=Middle, 2=Ring
+  float bend[3];     // Index 0=Index, 1=Middle, 2=Ring
   float stretch[3];  
   float heading;     
 } gloveData;
